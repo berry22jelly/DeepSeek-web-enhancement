@@ -282,8 +282,8 @@
             });
 
             this.btnPause.addEventListener('click', () => {
-                if (!this.isSpeaking && !this.isPaused) return;
-                if (this.isPaused) this.resume();
+                if (!this.synth) return;
+                if (this.synth.paused) this.resume();
                 else this.pause();
             });
 
