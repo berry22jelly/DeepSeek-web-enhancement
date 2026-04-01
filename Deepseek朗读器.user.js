@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         deepseek web朗读器
 // @namespace    http://tampermonkey.net/
-// @version      2026-04-01
+// @version      2026-04-02
 // @description  为你朗读deepseek生成的文本，点击油猴菜单中的show即可看到朗读器。滚动到想要听的消息处，点击朗读。
 // @author       berry22jelly
+// @license      MIT
+// @source       https://github.com/berry22jelly/DeepSeek-web-enhancement/
 // @match        https://chat.deepseek.com/**
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
